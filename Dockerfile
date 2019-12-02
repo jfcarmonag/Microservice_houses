@@ -11,7 +11,8 @@ COPY . app.py /app/
 
 ## Step 3:
 # Install packages from requirements.txt
-hadolint ignore=DL3013
+# hadolint ignore=DL3013, W1202
+
 RUN pip install --upgrade pip &&\
     pip install --trusted-host pypi.python.org -r requirements.txt
 
