@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+[![CircleCI](https://circleci.com/gh/jfcarmonag/Microservice_Houses.svg?style=svg)](https://circleci.com/gh/jfcarmonag/Microservice_Houses)
 
 ## Project Overview
 
